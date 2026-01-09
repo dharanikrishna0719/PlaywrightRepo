@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "basic-controls;verify-textboxes",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "verify textboxes",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 691664899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open the application for textboxes",
+            "match": {
+              "location": "PlaywrightAutomation\\StepFiles\\basicControls.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4018938000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "perform actions on the textboxes",
+            "match": {
+              "location": "PlaywrightAutomation\\StepFiles\\basicControls.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "basic-controls",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "basic controls",
+    "tags": [],
+    "uri": "PlaywrightAutomation\\FeaturesFiles\\basicControls.feature"
+  }
+]
